@@ -1,0 +1,24 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 5rem;
+  display: flex;
+
+  .container {
+    @include flex(row, center, space-between);
+    .instagram {
+      display: flex;
+      align-items: center;
+      span {
+        margin-right: 2rem;
+        font-family: Inter;
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
+}

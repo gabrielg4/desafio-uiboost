@@ -1,0 +1,99 @@
+.s-hero {
+  background: url('../assets/bg.png') no-repeat center center;
+  padding-top: 12rem;
+  .container {
+    @include flex(row, center, space-between);
+   .text {
+     padding-bottom: 8.6rem;
+     span {
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 120%;
+      background: -webkit-linear-gradient(#0194FF, #01EADA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     }
+     h1 {
+       width: 100%;
+       margin-top: 2rem;
+     }
+     p {
+      font-family: 'Inter', sans-serif;
+      font-size: 2rem;
+      line-height: 150%;
+      color: $white;
+      opacity: 0.7;
+
+      width: 100%;
+      max-width: 53.9rem;
+      margin-top: 2rem;
+     }
+     .notion {
+       display: flex;
+       flex-direction: column;
+       margin-top: 8.6rem;
+       .cola-nobriefieng {
+         width: 100%;
+         max-width: 59.9rem;
+         display: flex;
+         justify-content: space-between;
+         .button {
+           background-color: $white;
+           display: flex;
+           align-items: center;
+           padding: 1.8rem 2rem;
+           border-radius: 4px;
+           a {
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: 1.8rem;
+            line-height: 150%;
+            color: $neutral-colors-200;
+            margin-left: 1.5rem;
+           }
+         }
+
+       }
+      .enjoy {
+        width: 100%;
+        max-width: 9.1rem;
+        height: 4.6rem;
+        margin-top: 1.6rem;
+        margin-left: 3rem;
+      }
+     }
+   }
+   .area-image {
+    position: relative;
+    width: 100%;
+    max-width: 73.2rem;
+    display: flex;
+    .foguete {
+      z-index: 4;
+    }
+    .info {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      right: -170px;
+      bottom: 34rem;
+      .data {
+        margin-bottom: 3.7rem;
+      }
+      .share {
+        margin-bottom: 1.4rem;
+      }
+      p {
+        width: 100%;
+        max-width: 25.4rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.8rem;
+        line-height: 150%;
+        text-align: right;
+        color: $white;
+      }
+    }
+   }
+  }
+}
