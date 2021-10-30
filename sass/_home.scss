@@ -70,6 +70,7 @@
     max-width: 73.2rem;
     display: flex;
     .foguete {
+      animation: rocket 6s infinite;
       z-index: 4;
     }
     .info {
