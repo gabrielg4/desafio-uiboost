@@ -1,6 +1,7 @@
 .s-hero {
   background: url('../assets/bg.png') no-repeat center center;
   padding-top: 12rem;
+  background-size: cover;
   .container {
     @include flex(row, center, space-between);
    .text {
@@ -95,5 +96,29 @@
       }
     }
    }
+  }
+  .clouds {
+    position: relative;
+    width: 100%;
+    height: 69.6rem;
+    .cloud {
+     img {
+       position: absolute;
+       &.cloud1 {
+         bottom: 0;
+         z-index: 9;
+       }
+       &.cloud2 {
+         bottom: 5rem;
+         z-index: 2;
+       }
+       &.cloud3 {
+         bottom: 26rem;
+         z-index: 1;
+         left: 40rem;
+       }
+     }
+
+    }
   }
 }
