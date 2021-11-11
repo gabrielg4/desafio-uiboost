@@ -1,0 +1,19 @@
+footer {
+  .container {
+    @include flex(row, center, center);
+    padding-bottom: 4rem;
+    .desenvolvido {
+      display: flex;
+      align-items: center;
+      span {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+        color: $neutral-colors-400;
+      }
+      img {
+        margin-left: 1.6rem;
+      }
+    }
+  }
+}

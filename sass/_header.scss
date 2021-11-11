@@ -21,4 +21,13 @@ header {
       }
     }
   }
+  @include responsive(468px) {
+    .container {
+      .instagram {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
 }

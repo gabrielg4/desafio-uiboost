@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Inter&family=Rubik:wght@400;500;700&family=Sora:wght@500&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;900&family=Inter&family=Rubik:wght@400;500;700&family=Sora:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.min.css"> 
 
   <title>uiBoost</title>
 </head>
@@ -27,7 +29,7 @@
 
   <section class="s-hero">
     <div class="container">
-      <div class="text">
+      <div class="text" data-aos="fade-right">
         <span>DESAFIO UIBOOST 2020</span>
         <h1>Crie uma interface, seja avaliado e concorra a prêmios</h1>
         <p>Desafio com escopo real em parceria com Raia Drogasil.
@@ -44,9 +46,11 @@
         </div>
       </div>
       <div class="area-image">
-        <img class="foguete" src="./assets/foguete.png" alt="">
+        <img data-aos="zoom-in"  class="foguete" src="./assets/foguete.png" alt="">
         <div class="info">
-          <img class="data" src="./assets/data.png" alt="Data">
+          <div class="bg">
+            <p class="active">17 a 21 <br> de agosto</p>
+          </div>
           <img class="share" src="./assets/share.svg" alt="Compartilhar">
           <p>Participe do grupo exclusivo da 2ª turma no Telegram</p>
         </div>
@@ -60,5 +64,148 @@
       </div>
     </div>
   </section>
+
+  <section class="s-desafio">
+    <div class="container">
+      <div class="title" data-aos="fade-up">
+        <h2>Como vai ser o desafio</h2>
+      </div>
+      <div class="all-cards" data-aos="fade-right">
+        <div class="card">
+          <img src="./assets/icon-sany.svg" alt="Insany">
+          <h3>Briefing</h3>
+          <p>Disponiblizaremos o briefing completo no Notion com todas as features.</p>
+          <a href="#">Acesse o Notion</a>
+        </div>
+        <div class="card">
+          <img src="./assets/icon-pistol.svg" alt="Insany">
+          <h3>Instruções</h3>
+          <p>Leia com atenção todas informações antes de começar a criar a interface.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/icon-abduzido.png" alt="Insany">
+          <h3>Projeto</h3>
+          <p>Crie o projeto utilizando o software de sua preferência. Ex: Figma, XD, Sketch</p>
+        </div>
+        <div class="card">
+          <img src="./assets/icon-rocket.png" alt="Insany">
+          <h3>Entrega</h3>
+          <p>A entrega deverá ser feita 
+            até o dia 21/08 através 
+            do formulário no Notion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-cards">
+    <div class="container">
+      <div class="card-primary" data-aos="fade-left">
+        <div class="title">
+          <h2>Deu a louca no gerente, concorra aos seguintes prêmios</h2>
+        </div>
+        <div class="all-cards-primary">
+          <div class="conteudo">
+            <img src="./assets/icon-uiboost.svg" alt="">
+            <span>Voucher uiBoost</span>
+          </div>
+
+          <div class="conteudo">
+            <img src="./assets/icon-pixecalst.svg" alt="">
+            <span>VVoucher DS Boost</span>
+          </div>
+
+          <div class="conteudo">
+            <img src="./assets/icon-notion.svg" alt="">
+            <span>Voucher Curso Notion</span>
+          </div>
+
+          <div class="conteudo">
+            <img src="./assets/icon-kinghost.svg" alt="">
+            <span>Kit KingHost</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="card-secondary" data-aos="fade-right">
+        <h3>Porque participar</h3>
+        <p>Além de movimentar a comunidade UI/UX, o desafio te dá a oportunidade de participar de um banco de talentos que está chamando a atenção de grandes empresas em busca de bons profissionais. </p>
+        <div class="task">
+         <div class="info">
+          <img src="./assets/check-icon.svg" alt="">
+          <span>Ganhe visibilidade e faça com que empresas vejam seus projetos</span>
+         </div>
+         <div class="info">
+          <img src="./assets/check-icon.svg" alt="">
+          <span>Tenha trocas valiosas com outros profissionais da área </span>
+         </div>
+         <div class="info">
+          <img src="./assets/check-icon.svg" alt="">
+          <span>Pratique e aprimore sua maneira 
+            de fazer design e de trabalhar</span>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-informacoes">
+    <div class="container">
+      <div class="s-criterios">
+        <div class="criterios" data-aos="fade-right">
+          <span>🔥</span>
+          <h3>Critérios de avaliação</h3>
+          <p>Os critérios que utilizaremos  para avaliação dos projetos recebidos serão a estética visual,  a funcionalidade da UI, a viabilidade e também a adequação as necessidades apresentadas no  briefing.</p>
+        </div>
+        <div class="criterios" data-aos="fade-left">
+          <span>📦</span>
+          <h3>Resultado do concurso</h3>
+          <p>Live no nosso canal do <strong>Youtube,</strong> apresentando os ganhadores e prêmios. Para mais informações, acesse nosso grupo do <strong>Telegram.</strong></p>
+          <div class="hora">
+            <img src="./assets/hora.svg" alt="">
+            <p>30/08/20 às 20:30h</p>
+          </div>
+        </div>
+      </div>
+      <div class="s-bora-participar">
+        <h3 data-aos="fade-right">Curtiu? Bora participar!</h3>
+        <div class="button-notion" data-aos="fade-left">
+          <img src="./assets/notion.svg" alt="">
+          <a href="#">Cola no Briefing</a>
+        </div>
+      </div>
+      <div class="s-organizacao">
+        <div class="organizado" data-aos="fade-right">
+          <h4>Organizado por</h4>
+          <div class="images" >
+            <img src="./assets/logo-uiboost.svg" alt="Uiboost">
+            <img src="./assets/logo-interface20.svg" alt="Interface">
+            <img src="./assets/logo-designin.svg" alt="Designin">
+          </div>
+        </div>
+        <div class="organizado" data-aos="fade-left">
+          <h4>Apoio</h4>
+          <div class="images">
+            <img src="./assets/logo-rd.svg" alt="rd">
+            <img src="./assets/logo-kinghost.svg" alt="Kinghost">
+            <img src="./assets/logo-pixelcast.svg" alt="PixelCast">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <img src="./assets/clouds-bottom.png" alt="">
+    <div class="container">
+      <div class="desenvolvido">
+        <span>Desenvolvido por:</span>
+        <img src="./assets/logo-insany.svg" alt="Logo Insany">
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
